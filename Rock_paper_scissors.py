@@ -44,8 +44,7 @@ class HumanPlayer(Player):
             
 
 class  CyclePlayer(Player):
-    def __init__(self):
-        self.my_move = None
+    my_move = None
         
     def move(self):
         if self.my_move == None:
