@@ -61,8 +61,8 @@ class  CyclePlayer(Player):
 class ReflectPlayer(Player):
 
     def learn(self, my_move, their_move):
-        self.my_move = my_move
-        self.their_move = their_move
+        my_move = their_move
+      
 
     def move(self):
         if self.their_move == None:
